@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#images{
+	width: 100%;
+	/*height: 650px;*/
+	background-image: url("pen-and-paper-to-do-list.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#inp-btn{
+	width: 40%;
+	height: 150px;
+	/*border: 5px solid black;*/
+	display: flex;
+	align-items: center;
+}
+
+#inp-btn input{
+	width: 74%;
+	padding: 15px 15px;
+	border-radius: 50px;
+}
+
+#inp-btn button{
+	width: 23%;
+	padding: 15px 10px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: lightgreen;
+	border: none;
+}
+
+#inp-btn button:hover{
+	background: green;
+	color: white;
+}
+
+#text{
+	width: 500px;
+	border: 2px solid black;
+	overflow: none;
+}
+.newDiv{
+	width: 90%;
+	height: 50px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 5px auto;
+	padding: 5px 5px;
+}
+
+.h2{
+	text-decoration-line: none;
+}
+
+.h2:hover{
+	cursor: default;
+}
